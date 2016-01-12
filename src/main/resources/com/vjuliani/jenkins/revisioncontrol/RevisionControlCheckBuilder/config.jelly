@@ -1,0 +1,20 @@
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+  <f:entry title="${%Execute condition}" field="condition">
+        <f:textarea/>
+  </f:entry>
+  <f:entry title="${%SCM URL}" field="svnControlAddress">
+        <f:textbox/>
+  </f:entry>
+  <f:entry title="${%SCM Username}" field="svnControlUsername">
+        <f:textbox/>
+  </f:entry>
+  <f:entry title="${%SCM Password}" field="svnControlPassword">
+        <f:textbox/>
+  </f:entry>
+  <f:entry title="${%Last Delivered Revision}" field="svnLastRevision">
+        <f:textbox/>
+  </f:entry>
+  <f:entry title="${%Break Build}" field="stopJob">
+        <f:checkbox/>
+  </f:entry>
+</j:jelly>
